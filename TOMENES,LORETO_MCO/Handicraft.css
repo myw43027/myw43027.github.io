@@ -1,0 +1,172 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:#f9f9f9;
+}
+
+body {
+    background-image: url("background.jpg")
+
+}
+
+/* Header */
+.header {
+    background-color:rgb(185,123,61);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+.header h1 {
+    font-size: 3.5em;
+}
+.header p {
+    font-size: 1.2em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    text-align: center;
+     text-color: black;
+   
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+     text-color: black;
+   
+}
+
+.about p {
+    font-size: 1.1em;
+    text-color: black;
+   
+}
+
+/* Products Section */
+.products {
+    padding: 60px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+.product-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p a {
+    color: #8b4513;
+    text-decoration: none;
+}
+/* Footer */
+.footer {
+    background-color:rgb(185,123,61);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer p {
+    margin: 0;
+}
+/* Google-Style Front Page */
+body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+    background-color: #f9f9f9;
+}
+.search-container {
+    margin: 20px 0;
+}
+.search-bar {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+   
+}
+
+.search-bar:focus {
+    border-color: #8b4513;
+}
+.search-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #8b4513;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #a0522d;
+}
+/* Navigation */
+.navigation {
+    padding: 10px 0;
+    text-align: center;
+    text-color: black;
+   
+}
+
+nav {
+    font-size: 1em;
+    color: #8b4513;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
